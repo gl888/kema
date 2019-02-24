@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kema.iml" filepath="$PROJECT_DIR$/kema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_basic_parent/kema_basic_parent.iml" filepath="$PROJECT_DIR$/kema_basic_parent/kema_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_basic_parent/kema_basic_util/kema_basic_util.iml" filepath="$PROJECT_DIR$/kema_basic_parent/kema_basic_util/kema_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_config_service/kema_config_service.iml" filepath="$PROJECT_DIR$/kema_config_service/kema_config_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_eureka_service/kema_eureka_service.iml" filepath="$PROJECT_DIR$/kema_eureka_service/kema_eureka_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_plat_parent/kema_plat_interface/kema_plat_interface.iml" filepath="$PROJECT_DIR$/kema_plat_parent/kema_plat_interface/kema_plat_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_plat_parent/kema_plat_parent.iml" filepath="$PROJECT_DIR$/kema_plat_parent/kema_plat_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_plat_parent/kema_plat_provider/kema_plat_provider.iml" filepath="$PROJECT_DIR$/kema_plat_parent/kema_plat_provider/kema_plat_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_plat_parent/kema_plat_service.iml" filepath="$PROJECT_DIR$/kema_plat_parent/kema_plat_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kema_zuul_service/kema_zuul_service.iml" filepath="$PROJECT_DIR$/kema_zuul_service/kema_zuul_service.iml" />
+    </modules>
+  </component>
+</project>

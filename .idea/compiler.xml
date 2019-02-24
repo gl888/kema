@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kema_basic_util" />
+        <module name="kema_config_service" />
+        <module name="kema_eureka_service" />
+        <module name="kema_plat_interface" />
+        <module name="kema_plat_provider" />
+        <module name="kema_zuul_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kema" target="1.5" />
+      <module name="kema_basic_parent" target="1.5" />
+      <module name="kema_basic_util" target="1.5" />
+      <module name="kema_config_service" target="1.5" />
+      <module name="kema_eureka_service" target="1.5" />
+      <module name="kema_plat_interface" target="1.5" />
+      <module name="kema_plat_parent" target="1.5" />
+      <module name="kema_plat_provider" target="1.5" />
+      <module name="kema_plat_service" target="1.5" />
+      <module name="kema_zuul_service" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
