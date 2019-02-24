@@ -1,0 +1,20 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527 #显示的名字而已
+    prefer-ip-address: true #是否显示ip
+zuul:
+  routes:
+    glUser.serviceId: Employee-provider #哪一个服务
+    glUser.path: /employee/**  #路由映射：/User/**这个路径的访问替换user-provider
+  #ignored-services: user-provider  # 安全加固：忽略这个服务，如果要忽略所有的服务， “*”
+  ignored-services: "*"  # 安全加固：忽略这个服务，如果要忽略所有的服务， “*”
+  prefix: "/kema"  # 统一前缀
+  https://github.com/wbls8411/aigou.git
