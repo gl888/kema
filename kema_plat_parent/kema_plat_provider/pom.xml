@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <packaging>jar</packaging>
     <artifactId>kema_plat_provider</artifactId>
 <dependencies>
     <dependency>
@@ -30,16 +30,35 @@
         <artifactId>springfox-swagger2</artifactId>
         <version>2.9.2</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
-   <!-- <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger-ui</artifactId>
-        <version>2.9.2</version>
-    </dependency>-->
+    <!--配置中心支持-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-config</artifactId>
+    </dependency>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 </dependencies>
+
+    <!--添加热部署插件-->
+    <build>
+        <plugins>
+            <!--打包的插件-->
+            <plugin>
+                <!--springboot的maven插件-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.4.1.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

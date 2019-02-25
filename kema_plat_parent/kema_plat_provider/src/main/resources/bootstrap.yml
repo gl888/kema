@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 #配置服务器
+      label: master #分支
+      name: plat_provider_config #sithub上面的名称
+      profile: ${spring.profiles.active}  #${spring.profiles.active} #环境 java -jar -D xxx jar 打包用
+

@@ -17,4 +17,3 @@ zuul:
   #ignored-services: user-provider  # 安全加固：忽略这个服务，如果要忽略所有的服务， “*”
   ignored-services: "*"  # 安全加固：忽略这个服务，如果要忽略所有的服务， “*”
   prefix: "/kema"  # 统一前缀
-  https://github.com/wbls8411/aigou.git
